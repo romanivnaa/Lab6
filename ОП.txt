@@ -6,7 +6,11 @@ int main() {
     cout << "Input number ";
     cin >> number;
 
-    (number % 2 != 0 && number >= 100 && number <= 999) ? cout << "true" : cout << "false";
-
-    return 0
+    if (number % 2 != 0 && number >= 100 && number <= 999) {
+        cout << "true";
+    } else {
+        cout << "false";
+    }
+    return 0;
 }
+
