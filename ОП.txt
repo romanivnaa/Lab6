@@ -1,16 +1,17 @@
 #include <iostream>
+#include <math.h>
+#include<iomanip>
+
 using namespace std;
 
 int main() {
-    int number;
-    cout << "Input number ";
-    cin >> number;
-
-    if (number % 2 != 0 && number >= 100 && number <= 999) {
-        cout << "true";
-    } else {
-        cout << "false";
+    float x, sum, y;
+    cout << "Input x: ";
+    cin >> x;
+    sum = 0;
+    for (int i = 1; i <= 5; i++) {
+        sum += cos(i);
     }
-    return 0;
+    y = (pow(tan(x), 2) + sum) / x + 5;
+    cout << "Y = " << y;
 }
-
