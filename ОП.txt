@@ -15,3 +15,7 @@ int main() {
     y = (pow(tan(x), 2) + sum) / x + 5;
     cout << "Y = " << y;
 }
+    sum = 0;
+    sum = 0;
+    sum = 0;
+    sum = 0;
