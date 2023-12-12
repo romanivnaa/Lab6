@@ -1,0 +1,23 @@
+#include <iostream>
+#include "windows.h"
+
+using namespace std;
+
+int main() {
+    SetConsoleCP(1251);
+    SetConsoleOutputCP(1251);
+    int N, M;
+  
+    cout << "Введіть гідність картки (N) та масть картки (M): ";
+    cin >> N >> M;
+
+    switch (N) {
+    case 6: cout << "Шістка "; break;
+    case 7: cout << "Сімка "; break;
+    case 8: cout << "Вісімка "; break;
+    case 9: cout << "Дев'ятка "; break;
+    case 10: cout << "Десятка "; break;
+    case 11: cout << "Валет "; break;
+    case 12: cout << "Дама "; break;
+    case 13: cout << "Король "; break;
+    case 14: cout << "Туз "; break;
